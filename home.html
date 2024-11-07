@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gshop home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #eafaf1;">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="#">G SHOP</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="home.html">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="shop.html">SHOP</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="categories.html">CATEGORIES</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="deals.html">DEALS</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          BLOGS
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="blogclassic.html">BLOG CLASSIC</a></li>
+                          <li><a class="dropdown-item" href="#">BLOG GRID</a></li>
+                          <li><a class="dropdown-item" href="#">SINGLE POST</a></li>
+                      </ul>
+                  </li>
+              </ul>
+          </div>
+      </div>
+    </nav>    
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active"aria-current="page">Home</li>
+            <li class="breadcrumb-item"><a href="shop.html">shop</a></li>
+            <li class="breadcrumb-item"><a href="categories.html">Categories</a></li>
+            <li class="breadcrumb-item"><a href="deals.html">Deals</a></li>
+            <li class="breadcrumb-item"><a href="blogs.html">Blogs</a></li>
+        </ol>
+    </nav>
+    <!--slider ***********************************************-->
+    <div id="homepageCarousel" class="carousel slide custom-carousel" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#homepageCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#homepageCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#homepageCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://cdn.pixabay.com/photo/2017/08/06/17/58/people-2594683_1280.jpg" class="d-block w-100 custom-carousel-img" alt="First slide">
+                <div class="carousel-caption d-none d-md-block custom-carousel-caption">
+                    <h5>Welcome to G Shop</h5>
+                    <p>Discover amazing deals and the latest trends.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://cdn.pixabay.com/photo/2015/08/25/11/50/shop-906722_1280.jpg" class="d-block w-100 custom-carousel-img" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block custom-carousel-caption">
+                    <h5>Exclusive Offers</h5>
+                    <p>Shop our exclusive collections at unbeatable prices.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://cdn.pixabay.com/photo/2017/12/26/09/15/woman-3040029_1280.jpg" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block custom-carousel-caption">
+                    <h5>New Arrivals</h5>
+                    <p>Check out the latest products in our store.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#homepageCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#homepageCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+    <div class="container-fluid">
+        <div class="container custom-container">
+          <h1 class="display-3 text-center">New Collections</h1>
+          <p>Unveil your style with our latest collection, curated just for you! From trendy apparel to chic accessories, each piece reflects the latest fashion trends and timeless elegance. Explore vibrant colors, luxurious fabrics, and unique designs that elevate your wardrobe and express your individuality.
+            Whether you're looking for everyday essentials or standout pieces for special occasions, our new arrivals have something for everyone. Embrace the season with confidence and discover styles that inspire and empower.</p>
+        </div>
+     </div>
+      <div class="container mt-5 mb-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://themewagon.github.io/kaira/images/banner-image-3.jpg" class="shrink-image card-img-top" alt="Stylish Apparel">
+                    <div class="card-body">
+                        <h5 class="card-title">Trendy Apparel</h5>
+                        <p class="card-text">Explore our latest collection of stylish apparel that combines comfort and elegance. Perfect for any occasion, these pieces are designed to make you feel confident and fashionable.</p>
+                        <a href="#" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://themewagon.github.io/kaira/images/banner-image-4.jpg" class="shrink-image card-img-top" alt="Chic Accessories">
+                    <div class="card-body">
+                        <h5 class="card-title">Chic Accessories</h5>
+                        <p class="card-text">Complete your look with our chic accessories. From statement jewelry to stylish bags, these pieces add the perfect finishing touch to any outfit.</p>
+                        <a href="#" class="btn btn-primary">Explore More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://themewagon.github.io/kaira/images/banner-image-5.jpg" class="shrink-image card-img-top" alt="Footwear Collection">
+                    <div class="card-body">
+                        <h5 class="card-title">Footwear Collection</h5>
+                        <p class="card-text">Step out in style with our footwear collection. From casual sneakers to elegant heels, find the perfect pair that combines comfort with contemporary design.</p>
+                        <a href="#" class="btn btn-primary">Discover Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+  <div class="custom-margin"></div>
+  <div class="container mt-4">
+    <div class="row mt-5">
+        <div class="col-md-3 pt-3 text-center border-end">
+            <i class="fa-solid fa-calendar-days fa-3x imgexp text-success"></i>
+            <h1 class="display-6">Book an Appointment</h1>
+            <p>Enjoy personalized service by booking an appointment! Our team is ready to assist you with style advice and product selection. Choose a time that works for you and elevate your shopping experience!</p>
+        </div>
+        <div class="col-md-3 pt-3 text-center border-end">
+            <i class="fa-solid fa-bag-shopping fa-3x imgexp text-success"></i>
+            <h1 class="display-6">Pick Up In Store</h1>
+            <p>Shop online and pick up your items in-store! Choose the “Pick Up In Store” option at checkout, and get your purchases faster without waiting for shipping.</p>
+        </div>
+        <div class="col-md-3 pt-3 text-center border-end">
+            <i class="fa-solid fa-gift fa-3x imgexp text-success"></i>
+            <h1 class="display-6">Special Packaging</h1>
+            <p>Make your purchase memorable with our special packaging options. Perfect for gifts or treats, our beautifully designed packages add a personal touch to your order.</p>
+        </div>
+        <div class="col-md-3 pt-3 text-center">
+            <i class="fa-solid fa-rotate-left fa-3x imgexp text-success"></i>
+            <h1 class="display-6">Free Global Return</h1>
+            <p>Shop confidently with free global returns on all orders! If you’re not satisfied, return your purchase hassle-free within our return window.</p>
+        </div>
+    </div>
+</div>
+  <!--the carsoule for adding images -->
+   <!--bestseller section-->
+<div id="carouselExampleControls" class="carousel slide mt-5 container" data-bs-ride="carousel">
+    <h1 class="fs-2 fw-bold">BEST SELLERS</h1>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://themewagon.github.io/kaira/images/cat-item1.jpg" class="card-img-top cusheight" alt="Item 1"style="height: 15rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Black shirt</h5>
+                            <p class="card-text">Price: $10</p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://themewagon.github.io/kaira/images/cat-item2.jpg" class="card-img-top cusheight" alt="Item 2"style="height: 15rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">White shirt</h5>
+                            <p class="card-text">Price: $20</p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://fitkin.in/cdn/shop/products/1_0a1eca46-e335-47c7-ac44-d1a268d84bb2_1200x1200.jpg?v=1619341707" class="card-img-top cusheight" alt="Item 3"style="height: 15rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Hoddie</h5>
+                            <p class="card-text">Price: $30</p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQavNh4me8xptCPDNijy3XzsFYMyODDi5jPygxt-fUe2k7VBWfGVqLoTMN3pX_71FBeaxXpEL1Zekul42lQKjdStajYT2W0RG8sIlqh2-jjlGSuvw0dQN5k2g" class="card-img-top cusheight" alt="Item 4"style="height: 15rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Grape vine</h5>
+                            <p class="card-text">Price: $40</p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTEuBlYIU-RjWjSaTMKQsozWRhkeLCfCCo199OMncf-IvuNkoyTDJGusNXZAjUc1QgsFu7vGKSrOeqmjHvGMDQnBMB5lMTnxTO_nhaN2zAb" class="card-img-top cusheight" alt="Item 5"style="height: 15rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">frouque</h5>
+                            <p class="card-text">Price: $50</p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://themewagon.github.io/kaira/images/product-item-2.jpg" class="card-img-top cusheight" alt="Item 6"style="height: 15rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Baggy shirt</h5>
+                            <p class="card-text">Price: $60</p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<!-- Blog Preview Section -->
+<div class="container mt-5 blog-preview">
+  <h2>Latest From Our Blog</h2>
+  <div class="row">
+      <div class="col-md-4">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzz6a-6RqN54ZCz8AOvVlDeUHcVkMWGJ3nAQ&s" alt="Blog Post 1" class="img-fluid shrink-image" >
+          <h5>How to Style Your Outfits</h5>
+          <p>"Elevate your wardrobe with our expert styling tips! Discover how to mix and match pieces to create stunning outfits for any occasion. Whether you're dressing up for a night out or keeping it casual for brunch, learn the art of layering, color coordination, and accessorizing to express your unique style."</p>
+      </div>
+      <div class="col-md-4">
+          <img src="https://www.fastsimon.com/wp-content/uploads/pexels-clint-maliq-13634354-scaled.webp" alt="Blog Post 2" class="img-fluid shrink-image ">
+          <h5>Fashion Trends to Watch</h5>
+          <p>"Stay ahead of the fashion curve with our curated list of upcoming trends! From bold patterns to sustainable fabrics, we explore the styles that are set to dominate this season. Get inspired by the latest runway looks and learn how to incorporate these trends into your everyday wardrobe for a fresh and modern vibe."</p>
+      </div>
+      <div class="col-md-4">
+          <img src="https://img.freepik.com/premium-photo/black-white-accessories-flat-lay-with-magnolia-flowers-illustration_1088041-21308.jpg" alt="Blog Post 3" class="img-fluid shrink-image">
+          <h5>Accessorizing Like a Pro</h5>
+          <p>"Accessories can make or break an outfit, and we're here to help you master the art of accessorizing! Discover how to choose the right pieces that enhance your look without overwhelming it. From statement jewelry to chic bags, learn how to elevate your style and add that perfect finishing touch to every outfit."</p>
+      </div>
+  </div>
+</div>
+<!--signup for new seller -->
+<div class="container-fluid">
+  <div class="container mt-5 signup-home">
+    <h1 class="text-center">SIGN UP FOR OUR NEW COLLECTION</h1>
+    <form action="/signup" method="post">
+        <div class="mb-3">
+            <label for="name" class="form-label">Name:</label>
+            <input type="text" id="name" name="name" class="form-control" required>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" id="email" name="email" class="form-control" required>
+        </div>
+        <div class="d-flex justify-content-center">
+          <input type="submit" value="Sign Up" class="btn btn-primary form1-bt1 ">
+        </div>
+    </form>
+  </div>
+</div>
+<!--pics below-->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-2">
+       <img src="https://themewagon.github.io/kaira/images/insta-item1.jpg" class="pics"alt="pic1">
+      </div>
+      <div class="col-md-2">
+       <img src="https://themewagon.github.io/kaira/images/insta-item2.jpg" class="pics"alt="pic2">
+      </div>
+      <div class="col-md-2">
+       <img src="https://themewagon.github.io/kaira/images/insta-item3.jpg" class="pics"alt="pic3">
+      </div>
+      <div class="col-md-2">
+       <img src="https://themewagon.github.io/kaira/images/insta-item4.jpg"class="pics" alt="pic4">
+      </div>
+      <div class="col-md-2">
+       <img src="https://themewagon.github.io/kaira/images/insta-item5.jpg"class="pics" alt="pic5">
+      </div>
+      <div class="col-md-2">
+       <img src="https://themewagon.github.io/kaira/images/insta-item6.jpg"class="pics" alt="pic6">
+      </div>
+    </div>
+    <div class="container d-flex justify-content-center mt-n5">
+      <button type="button" class="btn btn-primary">FOLLOW US ON INSTAGRAM</button>
+    </div>
+</div>
+<footer>
+  <!--links and parts-->
+  <div class="container-fluid mt-5"style="background-color:#d4edda;">
+    <div class="container mt-5 footer-p1">
+      <div class="row">
+        <div class="col-lg-3">
+          <h1 class="fs-3" style="color: blue;">G SHOP</h1>
+          <p>GShop is your ultimate destination for all things trendy and essential. Our e-commerce platform offers a diverse range of products, from cutting-edge electronics to the latest fashion trends, all curated to meet your unique needs.</p>
+          <div class="container">
+            <i class="fa-brands fa-2x fa-facebook"></i>
+            <i class="fa-brands fa-2x fa-twitter"></i>
+            <i class="fa-brands fa-youtube fa-2x"></i>
+            <i class="fa-brands fa-instagram fa-2x"></i>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <h2>QUICK LINNKS</h2>
+          <a href="" class="footer-link">HOME</a><br>
+          <a href="" class="footer-link">ABOUT</a><br>
+          <a href="" class="footer-link">SERVICES</a><br>
+          <a href="" class="footer-link">CONTACT</a><br>
+        </div>
+        <div class="col-lg-3">
+          <h2 >HELP & INFO</h2>
+          <a href="" class="footer-link">Track Your Order</a><br>
+          <a href="" class="footer-link">Returns + Exchanges</a><br>
+          <a href="" class="footer-link">Shipping + Delivery</a><br>
+          <a href="" class="footer-link">Faqs</a><br>
+        </div>
+        <div class="col-lg-3">
+          <h2>CONTACT US</h2>
+          <p>Do you have any questions or suggestions?</p>
+          <a href=""class="footer-link">contact@yourcompany.com</a>
+          <p>Do you need support? Give us a call. </p>
+          <a href="" class="footer-link">+41 7242338423</a>
+        </div> 
+      </div>  
+    </div>
+  </div>
+  <div class="text-center p-3 ft">
+    © 2024 gshop. All rights reserved.
+  </div>
+</footer>
+</body>
+</html>

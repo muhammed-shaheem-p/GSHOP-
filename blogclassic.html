@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css"> 
+    <title>Blogclassic-gshop</title>
+</head>
+<body>
+<!-- Your Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">G SHOP</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+          <li class="nav-item">
+            <a class="nav-link" href="home.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="shop.html">SHOP</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="categories.html">CATEGORIES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="deals.html">DEALS</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              BLOGS
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item active"aria-current="page">BLOG CLASSIC</li>
+              <li><a class="dropdown-item" href="#">BLOG GRID</a></li>
+              <li><a class="dropdown-item" href="#">SINGLE POST</a></li>
+            </ul>
+          </li>
+        </ul>
+       <!--search button deleted-->
+      </div>
+    </div>
+  </nav> 
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="home.html">Home</a></li>
+        <li class="breadcrumb-item"><a href="shop.html">shop</a></li>
+        <li class="breadcrumb-item"><a href="categories.html">Categories</a></li>
+        <li class="breadcrumb-item"><a href="deals.html">Deals</a></li>
+        <li class="breadcrumb-item active"aria-current="page">Blog-classic</li>
+    </ol>
+</nav>
+<!-- Main Content Area -->
+<div class="container my-5">
+    <div class="row">
+        <!-- Main Blog Posts -->
+        <div class="col-md-8">
+            <div class="blog-post mb-4">
+                <h2 class="post-title font-weight-bold">5 Tips for Choosing the Perfect Shoes</h2>
+                <p class="post-meta text-muted">By Jane Doe | October 21, 2023</p>
+                <img src="https://cdn.pixabay.com/photo/2021/03/08/12/31/oxford-shoes-6078993_1280.jpg" class="img-fluid post-image" alt="Shoes">
+                <p class="post-content">Choosing the right shoes can be a daunting task. Here are some tips to help you find the perfect pair that fits your style and needs...</p>
+                <a href="#" class="btn btn-primary post-button">Read More</a>
+            </div>
+            <div class="blog-post mb-4">
+                <h2 class="post-title font-weight-bold">The Latest Trends in Fashion</h2>
+                <p class="post-meta text-muted">By John Smith | October 15, 2023</p>
+                <img src="https://cdn.pixabay.com/photo/2014/11/09/20/06/woman-524141_1280.jpg" class="img-fluid post-image" alt="Fashion Trends">
+                <p class="post-content">Stay ahead of the curve with these trending styles that everyone is talking about this season. Discover the must-have items for your wardrobe...</p>
+                <a href="#" class="btn btn-primary post-button">Read More</a>
+            </div>
+            <div class="blog-post mb-4">
+                <h2 class="post-title font-weight-bold">Exploring Sustainable Fashion</h2>
+                <p class="post-meta text-muted">By Emily Carter | October 20, 2023</p>
+                <img src="https://cdn.pixabay.com/photo/2016/11/29/11/09/woman-1869116_1280.jpg" class="img-fluid post-image" alt="Fashion Trends">
+                <p class="post-content">As the fashion industry evolves, sustainable practices are becoming more important. This article explores eco-friendly brands, materials, and how to build a sustainable wardrobe without compromising style...</p>
+                <a href="#" class="btn btn-primary post-button">Read More</a>
+            </div>
+            
+        </div>
+
+        <!-- Sidebar -->
+        <div class="col-md-4">
+            <div class="card sidebar-card mb-4">
+                <div class="card-header">Search</div>
+                <div class="card-body">
+                    <input type="text" class="form-control sidebar-search" placeholder="Search...">
+                    <button class="btn btn-primary" type="submit">Search</button>
+                </div>
+            </div>
+            <div class="card sidebar-card mb-4">
+                <div class="card-header">Categories</div>
+                <div class="card-body">
+                    <ul class="list-unstyled sidebar-categories">
+                        <li><a href="#">Footwear</a></li>
+                        <li><a href="#">Clothing</a></li>
+                        <li><a href="#">Accessories</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card sidebar-card mb-4">
+                <div class="card-header">Recent Posts</div>
+                <div class="card-body">
+                    <ul class="list-unstyled sidebar-recent-posts">
+                        <li><a href="#">5 Tips for Choosing the Perfect Shoes</a></li>
+                        <li><a href="#">The Latest Trends in Fashion</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card sidebar-card mb-4">
+                <div class="card-header">Newsletter Signup</div>
+                <div class="card-body">
+                    <form>
+                        <input type="email" class="form-control sidebar-email" placeholder="Email address">
+                        <button type="submit" class="btn btn-primary sidebar-button">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card sidebar-card mb-4">
+                <div class="card-header">Follow Us</div>
+                <div class="card-body">
+                    <div class="container">
+                        <i class="fa-brands fa-2x fa-facebook"></i>
+                        <i class="fa-brands fa-2x fa-twitter"></i>
+                        <i class="fa-brands fa-youtube fa-2x"></i>
+                        <i class="fa-brands fa-instagram fa-2x"></i>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer -->
+<footer>
+    <!--links and parts-->
+    <div class="container-fluid mt-5" style="background-color:#d4edda;">
+      <div class="container mt-5 footer-p1">
+        <div class="row">
+          <div class="col-lg-3">
+            <h1 class="fs-3" style="color: blue;">G SHOP</h1>
+            <p>GShop is your ultimate destination for all things trendy and essential. Our e-commerce platform offers a diverse range of products, from cutting-edge electronics to the latest fashion trends, all curated to meet your unique needs.</p>
+            <div class="container">
+              <i class="fa-brands fa-2x fa-facebook"></i>
+              <i class="fa-brands fa-2x fa-twitter"></i>
+              <i class="fa-brands fa-youtube fa-2x"></i>
+              <i class="fa-brands fa-instagram fa-2x"></i>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <h2>QUICK LINNKS</h2>
+            <a href="" class="footer-link">HOME</a><br>
+            <a href="" class="footer-link">ABOUT</a><br>
+            <a href="" class="footer-link">SERVICES</a><br>
+            <a href="" class="footer-link">CONTACT</a><br>
+          </div>
+          <div class="col-lg-3">
+            <h2 >HELP & INFO</h2>
+            <a href="" class="footer-link">Track Your Order</a><br>
+            <a href="" class="footer-link">Returns + Exchanges</a><br>
+            <a href="" class="footer-link">Shipping + Delivery</a><br>
+            <a href="" class="footer-link">Faqs</a><br>
+          </div>
+          <div class="col-lg-3">
+            <h2>CONTACT US</h2>
+            <p>Do you have any questions or suggestions?</p>
+            <a href=""class="footer-link">contact@yourcompany.com</a>
+            <p>Do you need support? Give us a call. </p>
+            <a href="" class="footer-link">+41 7242338423</a>
+          </div> 
+        </div>  
+      </div>
+    </div>
+    <div class="text-center p-3 ft">
+        © 2024 gshop. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>
+

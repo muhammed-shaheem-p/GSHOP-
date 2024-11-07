@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gshop-categories</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<header>
+ <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">G SHOP</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+              <li class="nav-item">
+                <a class="nav-link active"  href="home.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">SHOP</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="categories.html">CATEGORIES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="deals.html">DEALS</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  BLOGS
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="blogclassic.html">BLOG CLASSIC </a></li>
+                  <li><a class="dropdown-item" href="#">BLOG GRID</a></li>
+                  <li><a class="dropdown-item" href="#">SINGLE POST</a></li>
+                </ul>
+              </li>
+            </ul>
+           <!--search button deleted-->
+          </div>
+        </div>
+ </nav>  
+ <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="home.html">Home</a></li>
+        <li class="breadcrumb-item"><a href="shop.html">shop</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Categories</li>
+        <li class="breadcrumb-item"><a href="deals.html">Deals</a></li>
+        <li class="breadcrumb-item"><a href="blogs.html">Blogs</a></li>
+    </ol>
+</nav>
+</header>
+<main>
+    <!--hero card section*************************************************************-->
+    <section class="hero">
+        <div class="hero-content ">
+            <h1>Shop the Best Products</h1>
+            <p>Your one-stop destination for quality and variety</p>
+            <a href="#" class="btn btn-primary">Start Shopping</a>
+        </div>
+    </section>
+    <!--new arrrival section ****************************************************************-->
+    <section class="new-arrivals my-5">
+        <div class="container-fluid">
+            <div class="container">
+                <h2>New Arrivals</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <img src="https://m.media-amazon.com/images/I/51vcDQ0pFOL._AC_UL480_FMwebp_QL65_.jpg" class="card-img-top img-fluid shrink-image" alt="New Arrival 1">
+                            <div class="card-body">
+                                <h5 class="card-title">MANQ
+                                    Men's Slim Fit Tuxedo Suit Black Tuxedo</h5>
+                                <p class="card-text">"Elevate your formal wardrobe with the MANQ Men's Slim Fit Tuxedo Suit. </p><p>$55</p>
+                                <a href="#" class="btn btn-primary">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <img src="https://m.media-amazon.com/images/I/51NgWFNhgwL._AC_UL480_FMwebp_QL65_.jpg" class="card-img-top img-fluid shrink-image" alt="New Arrival 1">
+                            <div class="card-body">
+                                <h5 class="card-title">MANQ
+                                    Men Black Solid Slim Fit Tuxedo Suit</h5>
+                                <p class="card-text">"Step up your formal game with the MANQ Men's Black Solid Slim Fit Tuxedo Suit.</p> $34<p>
+                                </p>
+                                <a href="#" class="btn btn-primary">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <img src="https://m.media-amazon.com/images/I/51-d3Fw-FiS._AC_UL480_FMwebp_QL65_.jpg" class="card-img-top img-fluid shrink-image" alt="New Arrival 1">
+                            <div class="card-body">
+                                <h5 class="card-title">BREGEO
+                                    Men's Slim Fit Single Breasted Blazer</h5>
+                                <p class="card-text">"Upgrade your style with the BREGEO Men's Slim Fit Single Breasted Blazer."</p>
+                                <p>$25</p>
+                                <a href="#" class="btn btn-primary">Shop Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+          </div>
+        </div>
+    </section>
+    <!--promotional***************************************************************************-->
+    <!-- Promotional Banner -->
+<div class="container mt-4">
+    <div class="alert alert-warning text-center" role="alert">
+        <strong>Flash Sale!</strong> 30% off on all items. Limited time offer!
+    </div>
+</div>
+<!--featured catagories section **********************************************************-->
+<div class="container mt-4">
+    <h2>Featured Categories</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/e86b2a22-3e7b-449d-99ac-3728f2a5e3f2._CR0,0,1815,950_SX810_QL70_.jpg" class="card-img-top img-fluid" alt="Best Sellers">
+                <div class="card-body">
+                    <h5 class="card-title">Best Sellers <span class="badge badge-success">30% Off</span></h5>
+                    <p class="card-text">Discover our most popular products loved by customers.</p>
+                    <a href="#" class="btn btn-primary">Explore</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="https://m.media-amazon.com/images/I/61fy4Tu7D1L._AC_UL480_FMwebp_QL65_.jpg" class="card-img-top img-fluid" alt="New Arrivals">
+                <div class="card-body">
+                    <h5 class="card-title">New Arrivals</h5>
+                    <p class="card-text">Be the first to explore our latest additions!</p>
+                    <a href="#" class="btn btn-primary">Explore</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/aedc43e5-7e70-47ac-87f4-8ebd8b96268f._CR2,0,1297,679_SX810_QL70_.jpg" class="card-img-top img-fluid" alt="Seasonal Favorites">
+                <div class="card-body">
+                    <h5 class="card-title">Seasonal Favorites</h5>
+                    <p class="card-text">Check out our top picks for the season.</p>
+                    <a href="#" class="btn btn-primary">Explore</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--customer testimonials ********************************************************-->
+<div class="container">
+    <section class="deals-section my-5">
+        <h2>Customer's opinions</h2>
+        <div id="customerReviewCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"I had a fantastic experience shopping at gshop! The deals are unbeatable, and I scored some amazing discounts on items I’ve been wanting for a while. The website was easy to navigate, and my order arrived faster than I expected. The products exceeded my expectations in quality. I’ll definitely be a repeat customer. Highly recommend!"</p>
+                            <p class="card-text"><small class="text-muted">- simon white</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"I recently shopped at Gshop and I couldn’t be happier! The selection of products is amazing, and I found exactly what I was looking for at a great price. The checkout process was quick and easy, and my items arrived right on time. Plus, the quality is top-notch! I will definitely be back for more. Highly recommend to anyone looking for great deals!"</p>
+                            <p class="card-text"><small class="text-muted">- walter maison</small></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more carousel items for additional reviews -->
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#customerReviewCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#customerReviewCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+</div>
+<!--new seller sign up**********************************************************-->
+<!-- Newsletter Signup -->
+<div class="container">
+    <section class="newsletter-section my-5 text-center">
+        <h2>Stay Updated</h2>
+        <form class="shop-subscriiption">
+            <div class="mb-3">
+                <input type="email" class="form-control" placeholder="Enter your email" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+    </section>
+</div>
+<!--FAQ*********************************************************************************-->
+<div class="container faq-cont">
+    <section class="faq-section my-5">
+        <h2>FAQ</h2>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        What is your return policy?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Our return policy allows you to return products within 30 days of purchase. Please ensure the items are in their original condition.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        How do I track my order?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        You can track your order through the tracking link provided in your shipping confirmation email.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        What payment methods do you accept?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        We accept major credit cards, PayPal, and other secure payment methods.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        How do I return an item?
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        To return an item, contact our customer service team for a return authorization number. Pack the item securely and send it to the address provided.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        Do I need an account to place an order?
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        No, you can check out as a guest. However, creating an account allows you to track orders, save shipping information, and receive special offers.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<!--footer**********************************************************************************-->
+<footer>
+    <!--links and parts-->
+    <div class="container-fluid mt-5" style="background-color:#d4edda;">
+      <div class="container mt-5 footer-p1">
+        <div class="row">
+          <div class="col-lg-3">
+            <h1 class="fs-3" style="color: blue;">G SHOP</h1>
+            <p>GShop is your ultimate destination for all things trendy and essential. Our e-commerce platform offers a diverse range of products, from cutting-edge electronics to the latest fashion trends, all curated to meet your unique needs.</p>
+            <div class="container">
+              <i class="fa-brands fa-2x fa-facebook"></i>
+              <i class="fa-brands fa-2x fa-twitter"></i>
+              <i class="fa-brands fa-youtube fa-2x"></i>
+              <i class="fa-brands fa-instagram fa-2x"></i>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <h2>QUICK LINNKS</h2>
+            <a href="" class="footer-link">HOME</a><br>
+            <a href="" class="footer-link">ABOUT</a><br>
+            <a href="" class="footer-link">SERVICES</a><br>
+            <a href="" class="footer-link">CONTACT</a><br>
+          </div>
+          <div class="col-lg-3">
+            <h2 >HELP & INFO</h2>
+            <a href="" class="footer-link">Track Your Order</a><br>
+            <a href="" class="footer-link">Returns + Exchanges</a><br>
+            <a href="" class="footer-link">Shipping + Delivery</a><br>
+            <a href="" class="footer-link">Faqs</a><br>
+          </div>
+          <div class="col-lg-3">
+            <h2>CONTACT US</h2>
+            <p>Do you have any questions or suggestions?</p>
+            <a href=""class="footer-link">contact@yourcompany.com</a>
+            <p>Do you need support? Give us a call. </p>
+            <a href="" class="footer-link">+41 7242338423</a>
+          </div> 
+        </div>  
+      </div>
+    </div>
+    <div class="text-center p-3 ft">
+        © 2024 gshop. All rights reserved.
+    </div>
+  </footer>
+
+
+
+
+    
+    
+</main>
+</body>
+</html>

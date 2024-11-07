@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gshop</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <!--navbar ***********************************************************************-->
+<nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">G SHOP</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+          <li class="nav-item">
+            <a class="nav-link" href="home.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="shop.html" aria-current="page" >SHOP</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="categories.html">CATEGORIES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="deals.html">DEALS</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              BLOGS
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="blogclassic.html">BLOG CLASSIC </a></li>
+              <li><a class="dropdown-item" href="#">BLOG GRID</a></li>
+              <li><a class="dropdown-item" href="#">SINGLE POST</a></li>
+            </ul>
+          </li>
+        </ul>
+       <!--search button deleted-->
+      </div>
+    </div>
+  </nav> 
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="home.html">Home</a></li>
+        <li class="breadcrumb-item active"aria-current="page">shop</li>
+        <li class="breadcrumb-item"><a href="categories.html">Categories</a></li>
+        <li class="breadcrumb-item"><a href="deals.html">Deals</a></li>
+        <li class="breadcrumb-item"><a href="blogs.html">Blogs</a></li>
+    </ol>
+</nav>
+</header>
+ <main>
+    <section class="hero-section text-center my-5">
+        <h1>Welcome to Our Shop</h1>
+        <p>Discover the best products curated just for you.</p>
+    </section>
+    <!--product catogories-->
+    <div class="container-fluid">
+        <div class="container">
+            <section class="categories-section my-5">
+                <h2>Product Categories</h2>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="https://wallpapers.com/images/hd/electronics-1920-x-1080-background-wys18f0wt2xtjfwj.jpg" class="card-img-top img-fluid custom-img shrink-image" alt="electronics">
+                            <div class="card-body">
+                                <h5 class="card-title">Eelecronics</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D" class="card-img-top img-fluid custom-img shrink-image" alt="fashion">
+                            <div class="card-body">
+                                <h5 class="card-title">Fashion</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="https://img.freepik.com/premium-photo/collection-highquality-beauty-products-makeup-including-various-tools-accessories-se_908985-70449.jpg" class="card-img-top img-fluid custom-img  shrink-image" alt="fashion">
+                            <div class="card-body">
+                                <h5 class="card-title">Beauty</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="https://media.istockphoto.com/id/186157161/photo/sports-equipment-detail.jpg?s=612x612&w=0&k=20&c=uSQZzgmlRFm4kD6Ufl1Y5dDrHqffeR_UWMDLoHssYp4=" class="card-img-top img-fluid custom-img shrink-image" alt="sports img">
+                            <div class="card-body">
+                                <h5 class="card-title">Sports</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!--product listing-->
+   <div class="container-fluid">
+    <div class="container">
+        <section class="products-section my-5">
+            <h2>Our Products</h2>
+            <div class="row">
+                <!-- Repeat for more products -->
+                <div class="col-md-4">
+                    <div class="card mb-4"style="width: 18rem;">
+                        <img src="https://m.media-amazon.com/images/I/51zkKVzqlcL._AC_UL480_FMwebp_QL65_.jpg" alt="Product 1"class="img-fluid cust-pl shrink-image"style="height: 15rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">LookMark
+                                Men's Cotton Blend Printed Stitched</h5>
+                            <p class="card-text">$20.00</p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4" style="width: 18rem;">
+                        <img src="https://m.media-amazon.com/images/I/618Wek95laS._AC_UL480_FMwebp_QL65_.jpg" alt="Product 2" class="img-fluid cust-pl shrink-image" style="height: 15rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Dennis Lingo
+                                Men's Solid Slim Fit Cotton Casual Shirt </h5>
+                            <p class="card-text">$24.00</p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4"style="width: 18rem;">
+                        <img src="https://m.media-amazon.com/images/I/71QrkXBPABL._AC_UL480_FMwebp_QL65_.jpg" alt="Product 3" class="img-fluid cust-pl shrink-image"style="height: 15rem;">
+                        <div class="card-body">
+                            <h5 class="card-title">Dennis Lingo
+                                Men's Solid Slim Fit Cotton Casual Shirt </h5>
+                            <p class="card-text">$23.00</p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </div>
+   </div>
+   <div class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://m.media-amazon.com/images/I/51ngQyslUML._AC_UL480_FMwebp_QL65_.jpg" class="card-img-top shrink-image" alt="poduct4"style="height: 15rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Sheetal Associates
+                            Women Casual Regular Sleeves</h5>
+                        <p class="card-text">$17.00</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://m.media-amazon.com/images/I/71sJKDJht7L._AC_UL480_FMwebp_QL65_.jpg" class="card-img-top shrink-image" alt="poduct5"style="height: 15rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Janasya
+                            Women's Coral Orange Cotton</h5>
+                        <p class="card-text">$22.00</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://m.media-amazon.com/images/I/51yMAUfr-1L._AC_UL480_FMwebp_QL65_.jpg" class="card-img-top shrink-image" alt="poduct6" style="height: 15rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Sheetal Associates
+                            Women's Casual Solid Color</h5>
+                        <p class="card-text">$35.00</p>
+                        <a href="#" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+   </div> 
+   <!--product deals and offerrs-->
+   <section class="deals-section my-4">
+    <div class="hero-banner text-center text-white py-5" style="background-image: url('https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/80903c49-528a-404f-803f-4a5e0e2833dc._CR0,0,1200,628_SX810_QL70_.jpg'); background-size: cover;">
+        <h2>Exclusive Deals & Discounts</h2>
+        <p>Up to 50% off on selected items!</p>
+        <a href="#" class="btn btn-primary mt-3">Shop Now</a>
+    </div>
+   </section><!--the image banner-->
+   <!--offer banner***************************************-->
+   <section class="deals-section my-5">
+    <h2 class="text-center mb-4">Today's Hot Deals</h2>
+   <div class="container">
+    <div class="row text-center">
+        <div class="col-md-6 mb-4">
+            <div class="card shadow-sm">
+                <img src="https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/2850cf88-6942-439d-af0c-801cb9686081._CR0,464,1500,786_SX810_QL70_.jpg" class="card-img-top shrink-image" alt="Deal 1">
+                <div class="card-body">
+                    <h5 class="card-title"> Up to 50% Off</h5>
+                    <p class="card-text">Don't miss out on our exclusive offer!</p>
+                    <a href="#" class="btn btn-primary">Shop Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 mb-4">
+            <div class="card shadow-sm">
+                <img src="https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/54a95310-1c28-4807-823a-25f5f5adcbf8._CR0,0,1200,628_SX810_QL70_.jpg" class="card-img-top shrink-image" alt="Deal 2">
+                <div class="card-body">
+                    <h5 class="card-title"> Buy One Get One Free</h5>
+                    <p class="card-text">Grab this exciting offer before it's gone!</p>
+                    <a href="#" class="btn btn-primary">Shop Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+</section>
+<!--review section**customer testimonial******************************************-->
+<section class="deals-section my-5">
+    <h2>Happy customers</h2>
+    <div id="customerReviewCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text">"I had a fantastic experience shopping at [Your Store Name]! The deals are unbeatable, and I scored some amazing discounts on items I’ve been wanting for a while. The website was easy to navigate, and my order arrived faster than I expected. The products exceeded my expectations in quality. I’ll definitely be a repeat customer. Highly recommend!"</p>
+                        <p class="card-text"><small class="text-muted">- Mark thomson</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text">"I recently shopped at [Your Store Name] and I couldn’t be happier! The selection of products is amazing, and I found exactly what I was looking for at a great price. The checkout process was quick and easy, and my items arrived right on time. Plus, the quality is top-notch! I will definitely be back for more. Highly recommend to anyone looking for great deals!"</p>
+                        <p class="card-text"><small class="text-muted">- Emily maison</small></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more carousel items for additional reviews -->
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#customerReviewCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#customerReviewCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
+<!--nwe seller signup********************************************-->
+<div class="container">
+    <section class="newsletter-section my-5 text-center">
+        <h2>Stay Updated</h2>
+        <form class="shop-subscriiption">
+            <div class="mb-3">
+                <input type="email" class="form-control" placeholder="Enter your email" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+    </section>
+</div>
+<!--product review***************************************************-->
+<div class="container">
+    <section class="product-reviews my-5">
+        <h2>Customer Reviews</h2>
+        <div class="review-summary">
+            <h4>Overall Rating</h4>
+            <div>
+                <span class="average-rating">4.5</span>
+                <span class="stars">★★★★★</span>
+                <span>(150 reviews)</span>
+            </div>
+        </div>
+        <div class="review-filters my-3">
+            <label for="sort">Sort by:</label>
+            <select id="sort" class="form-select">
+                <option value="date">Most Recent</option>
+                <option value="rating">Highest Rating</option>
+                <option value="helpfulness">Most Helpful</option>
+            </select>
+        </div>
+        <div class="review-container" style="max-height: 300px; overflow-y: auto;">
+            <div class="review">
+                <h5>Jane Doe</h5>
+                <div>
+                    <span class="stars">★★★★★</span>
+                    <span class="review-date">March 15, 2024</span>
+                </div>
+                <p class="review-text">"Great product, exactly as described. Fast shipping and excellent customer service."</p>
+            </div>
+            <div class="review">
+                <h5>John Smith</h5>
+                <div>
+                    <span class="stars">★★★★☆</span>
+                    <span class="review-date">March 10, 2024</span>
+                </div>
+                <p class="review-text">"Good quality but the packaging could be improved."</p>
+            </div>
+            <div class="review">
+                <h5>Benjamin Franklin</h5>
+                <div>
+                    <span class="stars">★★★★☆</span>
+                    <span class="review-date">Feb 16, 2024</span>
+                </div>
+                <p class="review-text">"Good quality ,i loved it ."</p>
+            </div>
+            <!-- Add more reviews as needed -->
+        </div>
+        <button class="btn btn-primary mt-3">Write a Review</button>
+    </section>
+    
+</div>
+<!--footeer section****************************************************-->
+<footer>
+    <!--links and parts-->
+    <div class="container-fluid mt-5" style="background-color:#d4edda;">
+      <div class="container mt-5 footer-p1">
+        <div class="row">
+          <div class="col-lg-3">
+            <h1 class="fs-3" style="color: blue;">G SHOP</h1>
+            <p>GShop is your ultimate destination for all things trendy and essential. Our e-commerce platform offers a diverse range of products, from cutting-edge electronics to the latest fashion trends, all curated to meet your unique needs.</p>
+            <div class="container">
+              <i class="fa-brands fa-2x fa-facebook"></i>
+              <i class="fa-brands fa-2x fa-twitter"></i>
+              <i class="fa-brands fa-youtube fa-2x"></i>
+              <i class="fa-brands fa-instagram fa-2x"></i>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <h2>QUICK LINNKS</h2>
+            <a href="" class="footer-link">HOME</a><br>
+            <a href="" class="footer-link">ABOUT</a><br>
+            <a href="" class="footer-link">SERVICES</a><br>
+            <a href="" class="footer-link">CONTACT</a><br>
+          </div>
+          <div class="col-lg-3">
+            <h2 >HELP & INFO</h2>
+            <a href="" class="footer-link">Track Your Order</a><br>
+            <a href="" class="footer-link">Returns + Exchanges</a><br>
+            <a href="" class="footer-link">Shipping + Delivery</a><br>
+            <a href="" class="footer-link">Faqs</a><br>
+          </div>
+          <div class="col-lg-3">
+            <h2>CONTACT US</h2>
+            <p>Do you have any questions or suggestions?</p>
+            <a href=""class="footer-link">contact@yourcompany.com</a>
+            <p>Do you need support? Give us a call. </p>
+            <a href="" class="footer-link">+41 7242338423</a>
+          </div> 
+        </div>  
+      </div>
+    </div>
+    <div class="text-center p-3 ft">
+        © 2024 gshop. All rights reserved.
+    </div>
+  </footer>
+
+
+
+ </main>
+
+</body>
+</html>

@@ -1,0 +1,558 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.navbar{
+     background-color: rgba(54, 151, 32, 0.502)!important;
+}
+.nav-link {
+    font-weight: bolder;
+    color: #0808ea !important;
+    margin-left: 5rem;
+}
+.navbar-brand{
+    font-size: 2rem; 
+    color: #0808ea!important;
+}
+/*slider styling*/
+/* FAQ Section Styles */
+.faq-section {
+    background-color: #f9f9f9; /* Light background for contrast */
+    padding: 30px; /* Padding around the section */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.faq-section h2 {
+    text-align: center; /* Center the heading */
+    font-size: 2em; /* Larger font size */
+    color: #333; /* Darker text color */
+    margin-bottom: 20px; /* Space below the heading */
+}
+/*nav bar stylings *******************************/
+.nav-link {
+    transition: all 0.3s ease;
+    color: #2c3e50; /* Darker text color for better contrast */
+}
+
+.nav-link:hover {
+    color: #27ae60; /* Change to a green shade on hover */
+    transform: scale(1.5); /* Increase size on hover */
+}
+
+.navbar {
+    background-color: #eafaf1; /* Light green background */
+}
+
+.custom-container{
+    max-width: 50%;
+    max-height: 50vh;
+}
+.custom-margin{
+    width: 100%;
+    height: 10vh;
+}
+.shrink-image {
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+.shrink-image:hover {
+    transform: scale(0.95); /* Shrinks the image slightly */
+}
+.imgexp{
+    transition: transform 0.5 ease;
+}
+.imgexp:hover{
+    transform:scale(1.5);
+}
+.cusheight{
+    height: 35rem;
+    width:100%;
+    transition: transform 0.3 smooth;
+}
+.cusheight:hover{
+    transform: scale(.95);
+}
+.new-collection{
+    margin-top: 10rem;
+}
+.signup-home{
+    border: 3px solid rgb(17, 25, 20);
+    background: rgba(61, 142, 41, 0.502);
+}
+.pics{  object-fit: cover;
+        width: 100%;
+        height: 100%;
+}
+.footer-link {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    color: #000; /* Change this to your preferred text color */
+}
+.footer-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000; /* Change this to your preferred underline color */
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.footer-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.footer-p1{
+    background-color: #d4edda;
+}
+/*the styling for the home page ends hrer******************************************************/
+.custom-img {
+    height: 200px; /* Set a fixed height */
+    object-fit: cover; /* Ensure the image covers the entire area */
+}
+.cust-pl {
+    height: 500px; /* Set a fixed height for all images */
+    object-fit: cover; /* Ensure the image covers the entire area without distortion */
+    width: 100%; /* Ensures the image takes the full width of the card */
+}
+.card {
+    background-color:#d4edda;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #000; /* Change to your preferred color */
+    border-radius: 50%;
+}
+.shop-subscriiption{
+    background-color: #d4edda;
+}
+.product-reviews {
+        background-color: #f9f9f9;
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+ .review-summary {
+        margin-bottom: 2rem;
+    }
+ .review-summary .average-rating {
+        color: #ffcc00;
+    }
+.review {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+    }
+    .review .stars {
+        color: #ffcc00;
+    }
+    .review .review-date {
+        font-size: 0.9rem;
+    }
+    .review-container {
+        scrollbar-width: thin;
+        scrollbar-color: #888 #f9f9f9;
+    }
+    .review-container::-webkit-scrollbar {
+        width: 8px;
+    }
+    .review-container::-webkit-scrollbar-track {
+        background: #f9f9f9;
+    }
+    .review-container::-webkit-scrollbar-thumb {
+        background-color: #888;
+        border-radius: 10px;
+    }
+    .btn-primary {
+        background-color: #007bff;
+        border: none;
+        padding: 0.75rem 1.5rem;
+        border-radius: 5px;
+    }
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+    .ft{
+        background-color: #d4edda;
+    }
+    /******************************************************the catogorieies page*/
+    .hero {
+        background: url('https://i.pinimg.com/originals/41/1b/f9/411bf92ab7db3f5e560ff6899affecf7.jpg') no-repeat center center/cover;
+        color: white;
+        height: 70vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+    }
+    .hero-content {
+        max-width: 800px;
+        background:transparent;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    .card {
+       /* height: 100%;  Ensures the card takes the full height of the parent */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .card-img-top {
+        height: 500px; /* Set a fixed height for the images */
+        width: 100%; /* Ensures the image takes the full width of the card */
+        object-fit: cover; /* Ensures the image covers the entire area without distortion */
+    }
+    .card-body {
+        flex-grow: 1; /* Ensures the body stretches to fill available space */
+    }
+    .breadcrumb {
+        background-color: #f8f9fa; /* Light background */
+        border-radius: 0.5rem; /* Rounded corners */
+        padding: 0.75rem; /* Padding */
+    }
+    .breadcrumb-item a {
+        text-decoration: none; /* Remove underline from links */
+        color: #007bff; /* Blue link color */
+    }
+    .breadcrumb-item a:hover {
+        text-decoration: underline; /* Add underline on hover */
+    }
+    .breadcrumb-item.active {
+        color: #0d1a10; /* Grey color for current page */
+    }
+    /*faq*/
+    /* External CSS for FAQ Section */
+.faq-section {
+    background-color: #d4edda; /* Light green background color */
+    padding: 2rem; /* Add some padding for spacing */
+    border-radius: 0.5rem; /* Rounded corners for a smooth look */
+}
+
+.faq-section h2 {
+    margin-bottom: 1.5rem; /* Space below the heading */
+}
+
+.accordion-button {
+    background-color: transparent; /* Make the button background transparent */
+    color: #000; /* Black text color */
+}
+
+.accordion-button:focus {
+    box-shadow: none; /* Remove default focus outline */
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #c3e6cb; /* Slightly darker green when expanded */
+    color: #000; /* Black text color */
+}
+
+.accordion-item {
+    margin-bottom: 1rem; /* Space between accordion items */
+}
+
+.accordion-body {
+    background-color: #fff; /* White background for the accordion content */
+    border-top: 1px solid #c3e6cb; /* Light border to separate items */
+    padding: 1rem; /* Padding for content */
+}
+/***********************deals***************************/
+.hero-section {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  color: white;
+    }
+.hero-content {
+ max-width: 600px;
+ margin: 0 auto;
+    }
+.btn-light {
+  background-color: #fff;
+  color: #ff7e5f;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+    }
+.btn-light:hover {
+  background-color: #ff7e5f;
+  color: #fff;
+    }
+/* External CSS for Deal Categories Section */
+.deal-categories-section {
+    background-color: #f8f9fa; /* Light grey background */
+}
+
+.deal-category-card {
+    background-color: #ffffff; /* White card background */
+    border: 1px solid #dee2e6; /* Light border */
+    padding: 20px; /* Padding inside card */
+    border-radius: 0.5rem; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition effects */
+}
+
+.deal-category-card:hover {
+    transform: translateY(-5px); /* Lift the card slightly on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.deal-category-card h4 {
+    margin-bottom: 0; /* Remove default bottom margin */
+}
+/* External CSS for Featured Deals Section */
+.featured-deals-section {
+    background-color: #d4edda; /* Light green background */
+}
+
+.deal-card {
+    border: none; /* Remove border */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Ensure child elements fit within the card */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add transition for smooth effects */
+}
+
+.deal-card:hover {
+    transform: translateY(-5px); /* Slightly lift the card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
+}
+
+.deal-card img {
+    border-bottom: 2px solid #c3e6cb; /* Add a bottom border to the image */
+}
+
+.btn-deal {
+    background-color: #2e4ede; /* Green button background */
+    color: #fff; /* White text */
+    border: none; /* Remove border */
+    padding: 0.75rem 1.5rem; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.btn-deal:hover {
+    background-color: #0411fa; /* Darker green on hover */
+    color: #fff; /* White text on hover */
+}
+/* External CSS for Customer Reviews Section */
+.customer-reviews-section {
+    background-color: #f8f9fa; /* Light background color */
+    color: #333; /* Dark text for contrast */
+}
+
+.review-bubble {
+    background-color: #d4edda; /* Light green background */
+    border: 1px solid #dee2e6; /* Light border */
+    padding: 20px; /* Padding inside bubble */
+    border-radius: 25px; /* Rounded corners to create bubble effect */
+    position: relative; /* Relative positioning for pseudo-element */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition for smooth effects */
+}
+
+.review-bubble::after {
+    content: '';
+    position: absolute;
+    bottom: -15px; /* Positioning the tip */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #d4edda; /* Match the bubble color */
+}
+
+.review-bubble:hover {
+    transform: translateY(-5px); /* Slightly lift the bubble on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.blockquote-footer {
+    font-size: 0.875rem; /* Smaller font size for footer */
+    color: #6c757d; /* Muted color for footer */
+    margin-top: 10px; /* Add space above footer to avoid overlap */
+}
+/* External CSS for Exclusive Deals Section */
+.exclusive-deals-section {
+    background: linear-gradient(to right, #eafaf1, #a1c4fd, #2575fc); /* Enhanced gradient background */
+    color:#fff; /* White text */
+}
+
+.exclusive-deals-content {
+    background-color: #ffffff; /* White content background */
+    color: #333; /* Dark text for contrast */
+    padding: 20px; /* Padding inside the content */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition for smooth effects */
+}
+
+.exclusive-deals-content:hover {
+    transform: translateY(-5px); /* Slightly lift the content on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Blue button background */
+    border: none; /* Remove border */
+    padding: 0.75rem 1.5rem; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    color: #fff; /* White text on hover */
+}
+/* External CSS for Filter Deals Section */
+.filter-deals-section {
+    background-color: #f8f9fa; /* Light background color */
+    color: #333; /* Dark text for contrast */
+}
+
+.filter-deals-content {
+    background-color: #eafaf1; ; /* White content background */
+    color: #333; /* Dark text for contrast */
+    padding: 20px; /* Padding inside the content */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition for smooth effects */
+}
+
+.filter-deals-content:hover {
+    transform: translateY(-5px); /* Slightly lift the content on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Blue button background */
+    border: none; /* Remove border */
+    padding: 0.75rem 1.5rem; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    color: #fff; /* White text on hover */
+}
+/* External CSS for FAQ Section */
+.faq-section {
+    background: linear-gradient(to right, #eafaf1, #a1c4fd, #2575fc); /* Enhanced gradient background */
+    color: #333; /* Dark text for contrast */
+}
+
+.faq-content {
+    background-color: #ffffff; /* White content background */
+    color: #333; /* Dark text for contrast */
+    padding: 20px; /* Padding inside the content */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition for smooth effects */
+}
+
+.faq-content:hover {
+    transform: translateY(-5px); /* Slightly lift the content on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+}
+
+.accordion-button {
+    background-color: transparent; /* Make button background transparent */
+    color: #0056b3; /* Dark blue text color */
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.accordion-button:hover,
+.accordion-button:not(.collapsed) {
+    background-color: #eafaf1; /* Light green background on hover and when expanded */
+    color: #333; /* Dark text on hover and when expanded */
+}
+
+.accordion-item {
+    border: none; /* Remove default border */
+    margin-bottom: 1rem; /* Space between accordion items */
+}
+
+.accordion-body {
+    background-color: #f8f9fa; /* Light grey background for content */
+    padding: 1rem; /* Padding for content */
+}
+/*blog classic*********************************************************************************/
+/* General Body Styles */
+/* Blog Post Styles */
+.blog-post {
+    background-color: #eafaf1; /* White background for each blog post */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px; /* Padding inside each post */
+}
+
+/* Post Title Styles */
+.post-title {
+    color: #333; /* Dark grey color for the title */
+}
+
+/* Post Meta Information */
+.post-meta {
+    font-size: 0.9em; /* Smaller font size for meta information */
+    margin-bottom: 15px; /* Space below the meta info */
+}
+
+/* Post Image Styles */
+.post-image {
+    border-radius: 5px; /* Rounded corners for images */
+}
+
+/* Post Content Styles */
+.post-content {
+    color: #555; /* Slightly lighter grey for content */
+    line-height: 1.6; /* Improved line height for readability */
+}
+
+/* Post Button Styles */
+.post-button {
+    margin-top: 10px; /* Space above the button */
+}
+
+/* Sidebar Card Styles */
+.sidebar-card {
+    border: none; /* Remove border */
+    overflow: hidden; /* Prevent overflow issues */
+}
+
+/* Sidebar Search Input */
+.sidebar-search {
+    border-radius: 5px; /* Rounded corners for search input */
+}
+
+/* Sidebar Categories */
+.sidebar-categories li a {
+    color: #007bff; /* Bootstrap link color */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Sidebar Recent Posts */
+.sidebar-recent-posts li a {
+    color: #007bff; /* Bootstrap link color */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Sidebar Email Input */
+.sidebar-email {
+    border-radius: 5px; /* Rounded corners for email input */
+}
+
+/* Sidebar Button Styles */
+.sidebar-button {
+    width: 100%; /* Full width for the button */
+}
+
+
